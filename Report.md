@@ -146,17 +146,19 @@ Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but ther
   <tr>
     <th>Options</th>
     <th>Description</th>
-    <th>Example</th>
   </tr>
   <tr>
     <td>align</td>
     <td> It's used to align the content in the cell <span class="highlight">left<span>, <span class="highlight">right<span>, <span class="highlight">center<span></td>
-    <td></td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>colIndex</td>
+    <td>It's used to change the column position Integer value</td>
   </tr>
+  <tr>
+    <td>column</td>
+    <td>To give a name for a column to handle in diffrent way same like <span style="color:green">fieldname</span></td>
+  </tr>
+  
 </table>
 
