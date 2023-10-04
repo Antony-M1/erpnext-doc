@@ -95,3 +95,12 @@ frappe.query_reports["Employee Checkin Sheet"] = {
 	]
 }
 ```
+
+## What are all the events or functions we can use in JS
+
+* `onload`
+  * ```
+    onload:function(){
+	alert('onload')
+     }
+    ```
