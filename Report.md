@@ -124,3 +124,21 @@ frappe.query_reports["Employee Checkin Sheet"] = {
 	console.log(_columns, result)
  }
   ```
+
+## Column Settings
+You can set some settings in the columns like some features.
+Here a small example.
+
+check in the `python` file I mentioned above.
+```
+{
+	"label": _("Employee"),
+	"fieldname": "employee",
+	"fieldtype": "Link",
+	"options": "Employee",
+	"width": 100
+}
+```
+Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but there is other more options is there here some of the options
+
+
