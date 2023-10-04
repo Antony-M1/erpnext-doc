@@ -163,6 +163,10 @@ Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but ther
     <td>focusable</td>
     <td>When you click a cell its show which cell you clicked but its in False it won't show</td>
   </tr>
+  <tr>
+    <td>resizable</td>
+    <td>Won't allow you to resize the report</td>
+  </tr>
   
 </table>
 
