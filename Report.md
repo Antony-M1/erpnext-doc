@@ -167,6 +167,10 @@ Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but ther
     <td>resizable</td>
     <td>Won't allow you to resize the report</td>
   </tr>
+  <tr>
+    <td>sortOrder</td>
+    <td>String type 'asc', 'desc', 'none'</td>
+  </tr>
   
 </table>
 
