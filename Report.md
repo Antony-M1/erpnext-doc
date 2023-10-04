@@ -30,37 +30,37 @@ def get_columns(filters=None):
     return [
   		{
 			"label": _("Employee"),
-        	"fieldname": "employee",
-          	"fieldtype": "Link",
-           	"options": "Employee",
-           	"width": 100
-        },
+        		"fieldname": "employee",
+          		"fieldtype": "Link",
+	           	"options": "Employee",
+	           	"width": 100
+	        },
   		{
 			"label": _("Employee Name"),
-        	"fieldname": "employee_name",
-          	"fieldtype": "Data",
-           	"width": 150
-        },
+	        	"fieldname": "employee_name",
+	          	"fieldtype": "Data",
+	           	"width": 150
+	        },
   		{
 			"label": _("Log Type"),
-        	"fieldname": "log_type",
-          	"fieldtype": "Data",
-           	"width": 100,
-            "align": 'center',
-            "dropdown": False
-        },
+	        	"fieldname": "log_type",
+	          	"fieldtype": "Data",
+	           	"width": 100,
+			"align": 'center',
+			"dropdown": False
+	        },
   		{
 			"label": _("Time"),
-        	"fieldname": "time",
-          	"fieldtype": "Datetime",
-           	"width": 200
-        },
+	        	"fieldname": "time",
+	          	"fieldtype": "Datetime",
+	           	"width": 200
+	        },
   		{
 			"label": _("Auto Attenadnce"),
-        	"fieldname": "auto_attendance",
-          	"fieldtype": "Check",
-           	"width": 150
-        },
+	        	"fieldname": "auto_attendance",
+	          	"fieldtype": "Check",
+	           	"width": 150
+	        },
 	]
 
 
