@@ -141,27 +141,7 @@ check in the `python` file I mentioned above.
 ```
 Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but there is other more options is there here some of the options
 
-<div>
-<style>
-.highlight{
-	background-color:antiquewhite
-}
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
 <table>
   <tr>
     <th>Options</th>
@@ -179,4 +159,4 @@ tr:nth-child(even) {
     <td>Mexico</td>
   </tr>
 </table>
-</div>
+
