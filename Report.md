@@ -7,7 +7,8 @@ Unlock the power of custom reporting in ERPNext with this comprehensive step-by-
 
 ## Create a report
 
-I'm going to create a simple report with simple `filters` to using the `Employee Checkin` Doctype data.
+I'm going to create a simple report with simple `filters` using the `Employee Checkin` Doctype data.
+
 
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/44c02645-a56f-4416-92a7-c0c7cc0c73ea)
 
