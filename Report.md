@@ -85,12 +85,12 @@ frappe.query_reports["Employee Checkin Sheet"] = {
 	"filters": [
 		{
 			"label": "Employee",
-        	"fieldname": "employee",
-          	"fieldtype": "Link",
+        		"fieldname": "employee",
+          		"fieldtype": "Link",
 			"options":'Employee',
-           	"width": 200,
+           		"width": 200,
 			"reqd": 1
-        }
+        	}
 	]
 }
 ```
