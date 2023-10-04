@@ -160,8 +160,8 @@ Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but ther
     <td>To give a name for a column to handle in diffrent way same like <span style="color:green">fieldname</span></td>
   </tr>
   <tr>
-    <td>editable</td>
-    <td>Make the cell editable, Boolean value</td>
+    <td>focusable</td>
+    <td>When you click a cell its show which cell you clicked but its in False it won't show</td>
   </tr>
   
 </table>
