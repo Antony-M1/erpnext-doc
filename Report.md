@@ -122,7 +122,7 @@ frappe.query_reports["Employee Checkin Sheet"] = {
   ```
   get_chart_data: function (_columns, result) {
 	console.log(_columns, result)
- }
+  }
   ```
 
 ## Column Settings
