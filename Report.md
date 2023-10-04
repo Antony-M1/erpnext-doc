@@ -4,6 +4,10 @@
 ## Summary:
 Unlock the power of custom reporting in ERPNext with this comprehensive step-by-step guide. Dive into the world of script reports, where you'll learn to harness scripting capabilities to create tailored reports that provide valuable insights for your business. From setting up the environment to writing scripts and designing dynamic reports, this guide covers it all. Elevate your reporting game and gain full control over your ERPNext data.
 
+## Reference Documentation
+* [How to change the colours on Report shell](https://discuss.frappe.io/t/how-to-change-the-colours-on-report-shell/89111)
+* [How To Color Cell in Any Reports Based on Values Like >10](https://discuss.frappe.io/t/how-to-color-cell-in-any-reports-based-on-values-like-10/34122/9)
+* [How to add css file report?](https://discuss.frappe.io/t/how-to-add-css-file-report/110693)
 
 ## Create a report
 
