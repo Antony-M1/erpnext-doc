@@ -99,8 +99,24 @@ frappe.query_reports["Employee Checkin Sheet"] = {
 ## What are all the events or functions we can use in JS
 
 * `onload`
+  Basically onload you can used to make a server call and fetch data and you can set in filters
   * ```
     onload:function(){
 	alert('onload')
      }
     ```
+* `formatter`
+  Formatter used to change the format and look of the report
+  ```
+  formatter:function (value, row, column, data, default_formatter) {
+	value = default_formatter(value, row, column, data);
+  	return value
+  }
+  ```
+* `get_chart_data`
+  This function gets triggered when the data is rendered in the report
+  ```
+  get_chart_data: function (_columns, result) {
+	console.log(_columns, result)
+ }
+  ```
