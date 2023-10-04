@@ -143,6 +143,9 @@ Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but ther
 
 <div>
 <style>
+.highlight{
+	background-color:antiquewhite
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -167,7 +170,7 @@ tr:nth-child(even) {
   </tr>
   <tr>
     <td>align</td>
-    <td> It's used to align the content in the cell `left`, `right`, `center`</td>
+    <td> It's used to align the content in the cell <span class="highlight">left<span>, <span class="highlight">right<span>, <span class="highlight">center<span></td>
     <td></td>
   </tr>
   <tr>
