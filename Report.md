@@ -201,6 +201,8 @@ formatter:function (value, row, column, data, default_formatter) {
 
 ## Button In Report
 
+### Model 1
+
 Add one button in `filters` in the `js` file like this
 ```
 {
@@ -222,10 +224,35 @@ The final output
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/856e86e3-ba06-4826-82ac-6f415a6d6ab2)
 
 
+Basically, you can use this feature for any other operations for example load the `css` file
+or `send mail`. some custom operations for these things you can use.
 
+### Model 2
 
+Button in report `cell`. you can perform any operation from that. First create a `column` like this
+in python file `employee_checkin_sheet.py`
+```
+{
+	"label": _("Send Mail"),
+	"fieldname": "send_mail",
+	"fieldtype": "Data",
+	"width": 150,
+	"align": "center"
+}
+```
 
-
+In the `formatter` change add this line
+```
+try{
+			if (column.id == 'send_mail'){
+			value = `<button class="btn-primary" id="sent-email-${row[0].rowIndex}" data-employee="${data.employee}" data-employee_name="${data.employee}" data-log_type="${data.log_type}" onclick="send_mail(${row[0].rowIndex})">Send Mail</button>`
+			return value
+			}
+		}catch(err){
+			console.log('Error throwing because of last column its -> Total Row')
+			console.log(err)
+		}
+```
 
 
 
