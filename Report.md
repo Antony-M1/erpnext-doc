@@ -192,3 +192,8 @@ formatter:function (value, row, column, data, default_formatter) {
 	}
 }
 ```
+* `value` --> Argument Gives the `current cell` value
+* `row` --> This argument gives all the details of the current cell row
+* `column` --> This argument gives the `column` details of the current cell
+* `data` --> This argument gives the current row `data`
+* `default_formatter` it's a formatter funtion
