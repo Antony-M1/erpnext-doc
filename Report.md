@@ -241,6 +241,8 @@ in python file `employee_checkin_sheet.py`
 }
 ```
 
+`employee_checkin_sheet.js`
+
 In the `formatter` change add this line
 ```
 try{
@@ -251,6 +253,25 @@ try{
 }catch(err){
 	console.log('Error throwing because of last column its -> Total Row')
 	console.log(err)
+}
+```
+
+After adding the above line in the `formatter` add this `send_mail` function in the  botom of the `JS` filr
+```
+const send_mail = (row_index) => {
+
+
+	button = document.getElementById(`sent-email-${row_index}`)
+
+	var employee = button.getAttribute('data-employee');
+        var employee_name = button.getAttribute('data-employee_name');
+    	var log_type = button.getAttribute('data-log_type');
+
+	frappe.msgprint({
+		title: __('Notification'),
+		indicator: 'green',
+		message: __(`Mail Sent successfully to <b>${employee_name}</b> Log Type <b>${log_type}</b>`)
+	});
 }
 ```
 
