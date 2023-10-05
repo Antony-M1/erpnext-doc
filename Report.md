@@ -282,3 +282,7 @@ The final output like this
 ## Change the background color
 
 I want to make the all row background color as a `antiquewhite` for log type is `OUT`
+
+Actually changing the background color of the `row` is not that much easy. Inspect the row you can see the structure of the row in `html` like this
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/e6c11ff3-c6dd-4413-880e-53d006f02db1)
+
