@@ -198,3 +198,34 @@ formatter:function (value, row, column, data, default_formatter) {
 * `data` --> This argument gives the current row `data`
 * `default_formatter` it's a formatter funtion
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/d1565ec0-95c1-4320-9977-27cc0a2c0ae1)
+
+## Button In Report
+
+Add one button in `filters` in the `js` file like this
+```
+{
+	"label": "Take Action",
+	"fieldname": "custom_take_action",
+	"fieldtype": "Button",
+	"width": 200,
+}
+```
+and add this code at the bottom of the `js` file
+```
+$(document).on("click", "button[data-fieldname='custom_take_action']", function() {
+    // Your code to be executed when the element is clicked
+    alert("Taking Action");
+});
+```
+
+The final output
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/856e86e3-ba06-4826-82ac-6f415a6d6ab2)
+
+
+
+
+
+
+
+
+
