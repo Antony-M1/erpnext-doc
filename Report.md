@@ -275,5 +275,7 @@ const send_mail = (row_index) => {
 }
 ```
 
+The final output like this
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/137318d7-0996-414d-ae97-a94d5999b133)
 
 
