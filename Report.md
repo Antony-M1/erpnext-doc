@@ -174,3 +174,21 @@ Here you can see `label`, `fieldname`, `fieldtype`, `options` & `width` but ther
   
 </table>
 
+## Change the color of the cell
+we can achieve this through `formatter`
+
+In the report you can see the `IN` & `OUT` log type i want to make the `IN` bold green and `OUT` bold red. the column field name is `log_type`
+
+```
+formatter:function (value, row, column, data, default_formatter) {
+	value = default_formatter(value, row, column, data);
+
+	if(column.fieldname == 'log_type'){
+		if(value == 'IN'){
+			value = `<b style="color:green">${value}</b>`
+		}else if(value == 'OUT'){
+			value = `<b style="color:red">${value}</b>`
+		}
+	}
+}
+```
