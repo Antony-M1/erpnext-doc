@@ -244,14 +244,14 @@ in python file `employee_checkin_sheet.py`
 In the `formatter` change add this line
 ```
 try{
-			if (column.id == 'send_mail'){
-			value = `<button class="btn-primary" id="sent-email-${row[0].rowIndex}" data-employee="${data.employee}" data-employee_name="${data.employee}" data-log_type="${data.log_type}" onclick="send_mail(${row[0].rowIndex})">Send Mail</button>`
-			return value
-			}
-		}catch(err){
-			console.log('Error throwing because of last column its -> Total Row')
-			console.log(err)
-		}
+	if (column.id == 'send_mail'){
+	value = `<button class="btn-primary" id="sent-email-${row[0].rowIndex}" data-employee="${data.employee}" data-employee_name="${data.employee}" data-log_type="${data.log_type}" onclick="send_mail(${row[0].rowIndex})">Send Mail</button>`
+	return value
+}
+}catch(err){
+	console.log('Error throwing because of last column its -> Total Row')
+	console.log(err)
+}
 ```
 
 
