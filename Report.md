@@ -197,3 +197,4 @@ formatter:function (value, row, column, data, default_formatter) {
 * `column` --> This argument gives the `column` details of the current cell
 * `data` --> This argument gives the current row `data`
 * `default_formatter` it's a formatter funtion
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/d1565ec0-95c1-4320-9977-27cc0a2c0ae1)
