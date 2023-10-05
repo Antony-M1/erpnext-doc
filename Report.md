@@ -279,3 +279,6 @@ The final output like this
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/137318d7-0996-414d-ae97-a94d5999b133)
 
 
+## Change the background color
+
+I want to make the all row background color as a `antiquewhite` for log type is `OUT`
