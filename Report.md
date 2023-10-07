@@ -286,4 +286,7 @@ I want to make the all row background color as a `antiquewhite` for log type is 
 Actually changing the background color of the `row` is not that much easy. Inspect the row you can see the structure of the row in `html` like this
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/e6c11ff3-c6dd-4413-880e-53d006f02db1)
 
-You can see the `class="dt-row dt-row-0 vrow"`  in that class `dt-row-0` is unique and we can apply the CSS for each row we have to find the what are all the row contains the log_type `OUT` which means the `rowIndex`
+You can see the `class="dt-row dt-row-0 vrow"`  in that class `dt-row-0` is unique and we can apply the CSS for each row we have to find the what are all the row contains the log_type `OUT` which means the `rowIndex`.
+
+Row inside a row every `cell` contains class like this `class="dt-cell dt-cell--col-0 dt-cell--0-4 dt-cell--row-4"` here the sample image.
+
