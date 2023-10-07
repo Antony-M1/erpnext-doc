@@ -371,3 +371,5 @@ try{
 }
 ```
 Here the final output
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/85cbc0d9-a892-4855-a524-9b8ff16fd149)
+
