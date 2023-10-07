@@ -344,3 +344,7 @@ $(document).on("click", "button[data-fieldname='custom_apply_css']", function() 
 Final output
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/a32b3207-cdfd-4fa6-82a3-18bfacbccae1)
 
+## Editable Column or Cell
+Adding one more column in the report
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/75d8946a-9007-425a-8830-8eaf86e81865)
+
