@@ -340,3 +340,7 @@ $(document).on("click", "button[data-fieldname='custom_apply_css']", function() 
 });
 
 ```
+
+Final output
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/a32b3207-cdfd-4fa6-82a3-18bfacbccae1)
+
