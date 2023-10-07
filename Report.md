@@ -289,4 +289,5 @@ Actually changing the background color of the `row` is not that much easy. Inspe
 You can see the `class="dt-row dt-row-0 vrow"`  in that class `dt-row-0` is unique and we can apply the CSS for each row we have to find the what are all the row contains the log_type `OUT` which means the `rowIndex`.
 
 Row inside a row every `cell` contains class like this `class="dt-cell dt-cell--col-0 dt-cell--0-4 dt-cell--row-4"` here the sample image.
+![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/8fca681c-448d-4551-ace7-88e752ce9f52)
 
