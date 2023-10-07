@@ -291,3 +291,36 @@ You can see the `class="dt-row dt-row-0 vrow"`  in that class `dt-row-0` is uniq
 Row inside a row every `cell` contains class like this `class="dt-cell dt-cell--col-0 dt-cell--0-4 dt-cell--row-4"` here the sample image.
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/8fca681c-448d-4551-ace7-88e752ce9f52)
 
+Here you can see lots of class but im chosing the class is this `dt-cell`. note be carefull while using this class it will fetch all the cell.
+
+I'm Creating a button in `js` file in `filters`
+```
+{
+	"label": '<b style="color:blue">Apply CSS</b>',
+	"fieldname": "custom_apply_css",
+	"fieldtype": "Button",
+	"width": 150,
+}
+```
+Finding `rowIndex` `OUT` for the rows. At the top of the `JS` file I'm putting a `global` variable like this
+```
+var log_type_out_rowIndex = []
+```
+in the `formatter`, pushing the rowIndex in the `log_type_out_rowIndex` variable
+```
+try{
+	if(column.fieldname == 'log_type'){
+		if(value == 'OUT'){
+			log_type_out_rowIndex.push(row[0].rowIndex)
+		}
+	}
+}catch(err){
+	console.log('Total row table error')
+	console.log(err)
+}
+```
+
+
+At the bottom of the `JS` file im creating a `event listner`
+```
+``
