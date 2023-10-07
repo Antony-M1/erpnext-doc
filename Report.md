@@ -323,4 +323,20 @@ try{
 
 At the bottom of the `JS` file im creating a `event listner`
 ```
-``
+$(document).on("click", "button[data-fieldname='custom_apply_css']", function() {
+
+	console.log(log_type_out_rowIndex)
+
+	if(log_type_out_rowIndex.length){
+		for(index of log_type_out_rowIndex){
+			const element = document.getElementsByClassName(`dt-row-${index}`);
+			element[0].style.background = 'antiquewhite';
+		}
+	}
+	const rowCell = document.getElementsByClassName(`dt-cell`);
+	for(cell of rowCell){
+		cell.style.background = 'inherit'
+	}
+});
+
+```
