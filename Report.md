@@ -373,3 +373,4 @@ try{
 Here the final output
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/85cbc0d9-a892-4855-a524-9b8ff16fd149)
 
+I can able to edit but while export in the `pdf`, `excel` or `print` its not showing if any one have idea please suggest
