@@ -345,7 +345,7 @@ Final output
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/a32b3207-cdfd-4fa6-82a3-18bfacbccae1)
 
 ## Editable Column or Cell
-Adding one more column in the report in the python file
+Adding one more column in the report in the Python file
 ```
 {
 	"label": _('<b style="color:blue">Edit Me</b>'),
@@ -370,7 +370,7 @@ try{
 	console.log(err)
 }
 ```
-Here the final output
+Here is the final output
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/85cbc0d9-a892-4855-a524-9b8ff16fd149)
 
-I can able to edit but while export in the `pdf`, `excel` or `print` its not showing if any one have idea please suggest
+I can able to edit but while exporting in `pdf`, `excel` or `print` it's not showing. if anyone has an idea please suggest.
