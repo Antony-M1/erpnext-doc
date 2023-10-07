@@ -374,3 +374,5 @@ Here is the final output
 ![image](https://github.com/Antony-M1/erpnext-doc/assets/96291963/85cbc0d9-a892-4855-a524-9b8ff16fd149)
 
 I can able to edit but while exporting in `pdf`, `excel` or `print` it's not showing. if anyone has an idea please suggest.
+
+
